@@ -20,7 +20,7 @@
 #left
 {
     width: 40%;
-    margin-left: 140px;
+    margin-left: 240px;
 }
 
 #left h1{
@@ -53,16 +53,11 @@
     border-left: none;
     border-right: none;
 }
-
-#left
-{
-    /* border: 2px solid black; */
-}
-
 #right
 {
    /* border: 2px solid black;  */
    margin-left: 60px;
+   position: relative;
 }
 
 #right img{
@@ -81,4 +76,152 @@
 #container1
 {
     display: flex;
+}
+
+#pic
+{
+    position: absolute;
+    top: -2%;
+    left: 3%;
+}
+
+#first
+{
+margin-left: 230px;
+font-size: 18px;
+color: #2F324A;
+}
+
+#second
+{
+    margin-left: 670px;
+    color: #85D4E6;
+}
+
+#head
+{
+    margin-top: 60px;
+    padding-top: 20px;
+}
+
+
+#date
+{
+    font-size: 15px;
+}
+
+#message
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#container2
+{
+    margin-top: 30px;
+    background-color: #EDF7FA;
+}
+
+#box2
+{
+    margin-left: 140px;
+}
+
+.white
+{
+    background-color: #FFFFFF;
+    width: 330px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.white h2{
+    color: #292C44;
+}
+
+#date
+{
+    color: #6E7080;
+}
+
+.white p{
+    color: #585B6E;
+}
+
+.pic
+{
+    display: flex;
+    margin-left: 220px;
+    margin-right: 230px;
+    padding: 10px 0;
+}
+
+#container3 h3{
+    margin-left: 220px;
+    color: #21243D;
+}
+
+#picture1_right h2
+{
+color: #21243D;
+}
+
+.right
+{
+    margin-left: 20px;
+    padding-right: 30px;
+}
+
+#picture1_right p{
+    color: #717383;
+}
+
+#picture2_right p{
+    color: #717383;
+}
+
+#picture3_right p{
+    color: #717383;
+    margin-top: 25px;
+}
+
+.year
+{
+background-color: #142850;border-radius: 20px;
+padding: 2px 10px;
+color: #F8F8F9;
+}
+
+.dash
+{
+    color: #B9C2CB;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+hr
+{
+    width: 840px;
+   border: 1px solid #F1F1F1;
+}
+
+.icon
+{
+    width: 25px;
+    margin: 15px;
+}
+
+#icons_box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#container4 p{
+    text-align: center;
+    color: #656778;
 }
